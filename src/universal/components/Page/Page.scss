@@ -1,0 +1,33 @@
+.wrapper{
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+}
+
+.pageHeader{
+  grid-column: 1 / 4;
+  grid-row: 1;
+  padding: 2rem;
+  background-color: var(--secondary-color);
+}
+
+.pageHeaderContent{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.pageTitle{
+  margin: 0;
+  font-weight: 100;
+  letter-spacing: .015em;
+}
+
+.pageContent{
+  grid-column: 2;
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  justify-self: center;
+  margin: -4rem auto 0rem auto;
+  z-index: 2;
+}

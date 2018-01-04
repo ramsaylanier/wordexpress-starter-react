@@ -1,0 +1,17 @@
+@import "../../styles/colors";
+
+.menu{
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.item{
+  padding: 0rem 1rem;
+
+  a{
+    text-decoration: none;
+    color: $secondary-color;
+    font-size: .9rem;
+  }
+}

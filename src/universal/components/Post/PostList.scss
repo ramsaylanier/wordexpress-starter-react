@@ -1,0 +1,50 @@
+.wrapper{
+  display: grid;
+  grid-template-columns: 5% 1fr 5%;
+}
+
+.posts{
+  display: grid;
+  grid-row-gap: 1rem;
+}
+
+.content{
+  grid-column: 2;
+  max-width: 800px;
+  width: 100%;
+  justify-self: center;
+  padding: 2rem 0;
+}
+
+.item{
+  background-color: var(--light-grey-color);
+  width: 100%;
+  display: grid;
+  box-shadow: 8px 8px 8px -8px var(--dark-color);
+}
+
+.link{
+  display: block;
+  padding: 2rem;
+  text-decoration: none;
+}
+
+.title, .date{
+  margin: 0;
+}
+
+.categories{
+  border-top: 1px solid var(--dark-color);
+  padding: .5rem 2rem;
+  align-self: center;
+  display: flex;
+}
+
+.category{
+  margin-right: 1rem;
+
+  a{
+    text-decoration: none;
+    font-size: .8rem;
+  }
+}
